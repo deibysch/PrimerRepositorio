@@ -1,0 +1,68 @@
+#divAgregarLinea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+#divAgregarLinea #divPantalla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#divAgregarLinea #divDibujar{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#divAgregarLinea #divDatos{
+    display: flex;
+    /* position: absolute; */
+    /* position: fixed; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#divAgregarLinea #divDatos > *{
+    margin: 10px;
+    height: 20px;
+    width: 30vw;
+    border: 0px;
+    border-bottom: 2px solid #000;
+    min-width: 250px;
+}
+
+#divAgregarLinea h2{
+    margin: 0px;
+}
+
+#divAgregarLinea h5{
+    text-align: center;
+    margin: -5px 0px 5px 0px;
+}
+
+#divAgregarLinea button {
+    margin: 5px 1px;
+    height: 30px;
+    width: 100px;
+}
+
+#divAgregarLinea .btnHabilitado {
+    background-color: black;
+    color: white;
+}
+
+.btnDesabilitado{
+    background-color: #333;
+    color: #777;
+    border: 0px;
+}
